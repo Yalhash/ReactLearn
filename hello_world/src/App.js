@@ -7,6 +7,7 @@ import PropsClassComponent from './components/PropsClassComponent';
 */
 
 import StatefulClassComponent from './components/StatefulClassComponent';
+import StatefulClassComponent_2 from './components/StatefulClassComponent_2';
 
 
 
@@ -29,6 +30,7 @@ function App() {
         */
         }
       <StatefulClassComponent />
+      <StatefulClassComponent_2 />
       </header>
     </div>
   );
