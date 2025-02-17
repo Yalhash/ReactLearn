@@ -1,30 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 import TestFunctional from './components/TestFunctional';
 import TestClassComponent from './components/TestClassComponent';
 import PropsFunctional from './components/PropsFunctional';
+import PropsClassComponent from './components/PropsClassComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <PropsClassComponent name="SPONGE0" >
+          <p> This is a child component </p>
+        </PropsClassComponent>
         <TestFunctional />
         <p>
           Edited the App.js code!
         </p>
         <TestClassComponent />
-        <PropsFunctional name="SPONGE" >
+        <PropsFunctional name="SPONGE1" >
           <p> This is a child component </p>
         </PropsFunctional>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
