@@ -8,6 +8,7 @@ import PropsClassComponent from './components/PropsClassComponent';
 
 import StatefulClassComponent from './components/StatefulClassComponent';
 import StatefulClassComponent_2 from './components/StatefulClassComponent_2';
+import ConfettiClick from './components/ConfettiClick';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         }
       <StatefulClassComponent />
       <StatefulClassComponent_2 />
+      <ConfettiClick />
       </header>
     </div>
   );
