@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import TestFunctional from './components/TestFunctional';
+import TestClassComponent from './components/TestClassComponent';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <p>
           Edited the App.js code!
         </p>
+        <TestClassComponent />
         <a
           className="App-link"
           href="https://reactjs.org"
